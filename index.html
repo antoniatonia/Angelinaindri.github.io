@@ -123,13 +123,13 @@
        </tr> 
       </table>
       <form>
-        <label>Nama</label>
-        <input type="text">
-        <label>Alamat</label>
-        <textarea></textarea>
+        <label for="nama">Nama</label>
+        <input type="text" name="nama">
+        <label for="address">Alamat</label>
+        <textarea name="address"></textarea>
         
-        <label>Negara</label>
-        <select>
+        <label for="country">Negara</label>
+        <select name="country">
           <option>France</option>
           <option>America</option>
           <option>Korea</option>
@@ -137,12 +137,14 @@
         </select>
         
         <label>Gender</label>
-        <input type="radio"> <label>Wanita</label>
-        <input type="radio"> <label>Pria</label>
+        <input type="radio" name="Wanita">
+        <label for="wanita"Wanita</label>
+        <input type="radio"> name="pria">
+        <label for="pria">Pria</label>
         
         <label>Pekerjaan</label>
-        <input type="checkbox">Murid
-        <input type="checkbox">Karyawan
+        <input type="checkbox" name="murid">Murid</label>
+        <input type="checkbox" name="karyawan">Karyawan</label>
         
         <button>save</button>
     </body>
